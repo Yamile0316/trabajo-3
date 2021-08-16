@@ -1,0 +1,34 @@
+body{
+    border:0px;
+    margin: 0px;
+    padding:0px;
+}
+.main-container{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(179.04deg, #BBB8BF 0.82%, #EBEBF2 97.99%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-container
+{
+    border-radius: 50%;
+    background-color: #F2C53D;
+    width:50% ;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.circular--square {
+    border-radius: 50%;
+    width: 50%;
+    display: flex;
+justify-content: center;
+align-items: center;
+  }
+.circular--square:hover
+{
+    background-image: linear-gradient(0deg, #A6763C 40.14%, rgba(166, 118, 60, 0) 100%);
+}
